@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.0 Transitional//EN" "html://www.w3.org//TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Форми</title>
+		<link href="css/form.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="form">
+			<h1>Форма</h1>
+			<form action="#" method="post">
+				<div class="row">
+					<p><label for="login">Логін</label></p>
+					<input type="text" name="login" value="Логін" size="25" maxlength="10" id="login" />
+				</div >
+				<div class="row">
+					<p><label for="password">Пароль</label></p>
+					<input type="password" name="password" value="Пароль" id="password" size="25" />
+				</div>
+				<div class="row">
+					<p>Оцінити сайт</p>
+					<label><input type="radio" name="evaluation" value="excellent" checked="checked" /> Відмінно</label><br/>
+					<label><input type="radio" name="evaluation" value="good" /> Добре</label><br/>
+					<label><input type="radio" name="evaluation" value="badly" /> Погано</label><br/>
+				</div>
+				<div class="row">
+					<p>Як ви проводите вільний час</p>
+					<label><input type="checkbox" name="leisure[]" value="read" checked="checked"/> Читаю книжку </label><br/>
+					<label><input type="checkbox" name="leisure[]" value="watch" /> Дивлюсь фільм </label><br/>
+					<label><input type="checkbox" name="leisure[]" value="listen" /> Слухаю музику </label><br/>
+					<label><input type="checkbox" name="leisure[]" value="walk" /> Гуляю з друзями </label><br/>
+				</div>
+				<div class="row">
+					<p><label for="musicstyles">Які стилі музики ви слухаєте</label></p>
+					<select name="musicstyles[]" multiple="multiple" size="5" id="musicstyles">
+						<option value="1">Поп</option>
+						<option value="2">Реп</option>
+						<option value="3">Рок</option>
+						<option value="4">Джаз</option>
+						<option value="5">Блюз</option>
+					</select>
+				</div>
+				<div class="row">
+					<p><label for="interests">Ваші інтереси</label></p>
+					<textarea name="interests" rows="4" cols="45" id="interests">Ввести текст</textarea><br />
+				</div>
+				<input type="submit" name="submit" value="Надіслати"/>
+				<input type="reset" name="reset" value="Скинути" />
+				<input type="button" name="button" value="Кнопка" /><br />
+				<input type="image" name="send" src="image/send_btn.jpg" width="82" height="52" />
+			</form>
+		</div>
+	</body>
+</html> 

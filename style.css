@@ -1,0 +1,142 @@
+body {
+	color:#262626;
+	font: 14px/1.5 Arial, Verdana, Tahoma, sans-serif;
+	margin: 0;
+	background: #e2e2e2 url(../image/main_bg.jpg);
+}
+
+p{
+	text-indent: 35px;
+	}
+
+ol {
+	list-style: upper-alpha inside;
+}
+
+ul {
+	list-style: circle inside;
+}
+
+/*Селектор по ідентифікатору або id-селектори*/
+#header {
+	color: #c23636;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+/*Контекстний селектор*/
+p span {
+	color: #d44a4a;
+	text-decoration: underline;
+}
+
+/*Групування*/
+h2, h3 {
+	color: #243f7a;
+}
+
+.bold-text {
+	font-weight: bold; /*font-weight bold*/
+}
+.italic-text {
+	font-style: italic; /*font-style italic*/
+	font-weight: bold;
+}
+
+table{
+	width: 650px;
+	border: 1px solid #dddfe1;
+	border-collapse: collapse;
+	color: #606060;
+	margin: 0 auto;
+}
+
+th{
+	background-color:#edeeee;
+	color: #9c9c9c;
+}
+
+td,th{
+	border: 1px solid #dddfe1;
+	height: 52px;
+}
+
+tr {
+	text-align: center;
+}
+
+.left-column {
+	text-align: left;
+	padding-left: 15px;
+}
+
+a:link {	/*link псевдоклас	visited,	hover-коли наводимо курсор миші,	active-коли клікаємо по ссилці*/
+	color: #6190b8;
+}
+
+a:hover {
+	text-decoration: none; /*зникає підкреслення ссилки*/
+}
+
+#box{
+	border: 2px solid #cccccc;
+	width: 700px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#box2{
+	border: 2px solid #cccccc;
+	min-width: 700px;
+	max-width: 1100px;
+}
+
+#content{
+	width: 700px;
+	border: 1px solid #c4c4c4;
+	padding: 30px 40px;
+	margin: 20px auto;
+	background-color: #ffffff;
+	position: relative;
+}
+
+#author{
+	float: right;
+}
+
+#free{
+	width: 165px;
+	height: 120px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#new{
+	position: absolute;
+	top: -13px;
+	left: -14px;
+}
+
+#contact{
+	width: 158px; 
+	height: 134px;
+	position: fixed;
+	left: 0;
+	top: 50%;
+	margin-top: -67px;
+}
+
+#test{
+	margin: 0 auto;
+	display: block;
+}
+
+#order{
+	width: 256px;
+	height: 128px;
+	margin: 15px auto;
+}
