@@ -10,7 +10,7 @@ p{
 	}
 
 ol {
-	list-style: upper-alpha inside;
+	list-style: upper-alpha outside;
 }
 
 ul {
